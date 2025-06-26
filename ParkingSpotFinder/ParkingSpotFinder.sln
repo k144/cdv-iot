@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageDownloader", "ImageDownloader\ImageDownloader.csproj", "{8948CD3B-F02B-418D-A010-FCB815317FA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageProcessor", "ImageProcessor\ImageProcessor.csproj", "{61BD47C7-9BFB-421D-BE04-BA19CF08DF59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiVisionModel", "AiVisionModel\AiVisionModel.csproj", "{EC197829-1198-4D04-9456-17C996F7EF1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database", "Database\Database.csproj", "{0F6AF0A5-D4BA-4F24-90F2-5DCB40758DEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestApi", "RestApi\RestApi.csproj", "{0B61EDB7-E38D-44E3-9D32-8F5B68184B16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Camera", "Camera\Camera.csproj", "{2513DAB7-3069-44E9-B9E6-03B973D2BEA8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8948CD3B-F02B-418D-A010-FCB815317FA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8948CD3B-F02B-418D-A010-FCB815317FA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8948CD3B-F02B-418D-A010-FCB815317FA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8948CD3B-F02B-418D-A010-FCB815317FA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61BD47C7-9BFB-421D-BE04-BA19CF08DF59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61BD47C7-9BFB-421D-BE04-BA19CF08DF59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61BD47C7-9BFB-421D-BE04-BA19CF08DF59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61BD47C7-9BFB-421D-BE04-BA19CF08DF59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC197829-1198-4D04-9456-17C996F7EF1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC197829-1198-4D04-9456-17C996F7EF1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC197829-1198-4D04-9456-17C996F7EF1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC197829-1198-4D04-9456-17C996F7EF1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F6AF0A5-D4BA-4F24-90F2-5DCB40758DEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F6AF0A5-D4BA-4F24-90F2-5DCB40758DEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F6AF0A5-D4BA-4F24-90F2-5DCB40758DEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F6AF0A5-D4BA-4F24-90F2-5DCB40758DEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B61EDB7-E38D-44E3-9D32-8F5B68184B16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B61EDB7-E38D-44E3-9D32-8F5B68184B16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B61EDB7-E38D-44E3-9D32-8F5B68184B16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B61EDB7-E38D-44E3-9D32-8F5B68184B16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2513DAB7-3069-44E9-B9E6-03B973D2BEA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2513DAB7-3069-44E9-B9E6-03B973D2BEA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2513DAB7-3069-44E9-B9E6-03B973D2BEA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2513DAB7-3069-44E9-B9E6-03B973D2BEA8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

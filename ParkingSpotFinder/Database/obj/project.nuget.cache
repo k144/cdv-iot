@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "SBssbgRNAas=",
+  "success": true,
+  "projectFilePath": "/home/jakubn/dev/cdv-iot/ParkingSpotFinder/Database/Database.csproj",
+  "expectedPackageFiles": [
+    "/home/jakubn/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.4/microsoft.aspnetcore.app.ref.9.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}
