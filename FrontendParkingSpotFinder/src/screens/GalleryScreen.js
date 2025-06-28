@@ -1,4 +1,5 @@
-import React from "react";
+import { React, useEffect } from "react";
+
 import {
   View,
   Text,
@@ -10,25 +11,25 @@ import {
 import SpotCard from "../components/SpotCard";
 import { LinearGradient } from "expo-linear-gradient";
 
-const images = [
-  {
-    imageUrl: require("../../assets/images/imgpark.png"),
-    timestamp: 1687804800000, // przykładowy timestamp w ms (np. 26 czerwca 2025)
-  },
-];
-
-// const images = [
-//   {
-//     url: "https://example.com/photo1.jpg", // <--- tutaj link do obrazka z chmury
-//     timestamp: 1687804800000, // np. UNIX timestamp w ms
-//   },
-//   {
-//     url: "https://example.com/photo2.jpg",
-//     timestamp: 1687891200000,
-//   },
-// ];
-
 export default function GalleryScreen({ navigation }) {
+  let images = [];
+  useEffect(() => {
+    for (let i = 1; i < 12; i++) {
+      images.push({
+        imageUrl: `https://www.popuw.com/images/maps/adomatic/level${i}.png`,
+        timestamp: 1687804800000,
+      });
+    }
+    console.log("dupa:");
+    console.log(images);
+  });
+  // let images = [
+  //   {
+  //     imageUrl: "https://thispersondoesnotexist.com/",
+  //     timestamp: 1687804800000, // przykładowy timestamp w ms (np. 26 czerwca 2025)
+  //   },
+  // ];
+
   return (
     <LinearGradient
       colors={["#b993d6", "#8ca6db"]}
@@ -44,13 +45,13 @@ export default function GalleryScreen({ navigation }) {
           <TouchableOpacity
             onPress={() =>
               navigation.navigate("PhotoScreen", {
-                imageUrl: item.url,
+                imageUrl: item.imageUrl,
                 timestamp: item.timestamp,
               })
             }
             style={styles.imageWrapper}
           >
-            <Image source={{ uri: item.url }} style={styles.image} />
+            <Image source={{ uri: item.imageUrl }} style={styles.image} />
           </TouchableOpacity>
         )}
         keyExtractor={(item, idx) => idx.toString()}
