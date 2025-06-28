@@ -12,23 +12,16 @@ import SpotCard from "../components/SpotCard";
 import { LinearGradient } from "expo-linear-gradient";
 
 export default function GalleryScreen({ navigation }) {
-  let images = [];
-  useEffect(() => {
-    for (let i = 1; i < 12; i++) {
-      images.push({
-        imageUrl: `https://www.popuw.com/images/maps/adomatic/level${i}.png`,
-        timestamp: 1687804800000,
-      });
-    }
-    console.log("dupa:");
-    console.log(images);
-  });
-  // let images = [
-  //   {
-  //     imageUrl: "https://thispersondoesnotexist.com/",
-  //     timestamp: 1687804800000, // przykładowy timestamp w ms (np. 26 czerwca 2025)
-  //   },
-  // ];
+  let images = [
+    {
+      imageUrl: "https://i.imgur.com/E9WpwqX.jpeg",
+      timestamp: 1687804800000,
+    },
+    {
+      imageUrl: "https://i.imgur.com/yt1xb2W.jpeg",
+      timestamp: 1687804800000,
+    },
+  ];
 
   return (
     <LinearGradient
