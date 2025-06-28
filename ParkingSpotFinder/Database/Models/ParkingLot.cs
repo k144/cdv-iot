@@ -6,5 +6,6 @@ namespace Database.Models
         public required string Name { get; set; }
         public required string Location { get; set; }
         public int TotalParkingSpaces { get; set; }
+        public required string CameraUrl { get; set; }
     }
 }
