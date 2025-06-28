@@ -1,0 +1,96 @@
+# .NET Core build output
+bin/
+obj/
+*.dll
+*.pdb
+*.cache
+*.deps.json
+*.runtimeconfig.json
+*.xml
+*.exe
+*.mdf
+*.ldf
+*.sln.DotSettings
+*.staticwebassets.endpoints.json
+apphost
+
+# Visual Studio / Rider / JetBrains IDE
+.vs/
+.vscode/
+.idea/
+*.sln.DotSettings.user
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Environment and configuration files
+*.env
+.env
+.env.local
+.env.production
+azure-config.env
+deployment-config.env
+SECRETS.md
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Package managers
+packages/
+node_modules/
+*.lock
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Azure Functions
+local.settings.json
+
+# Docker
+.docker/
+
+# Testing
+TestResults/
+coverage/
+*.trx
+*.coverage
+
+# Runtime directories and files
+runtimes/
+wwwroot/lib/
+
+# NuGet packages
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# MSBuild Binary and Structured Log
+*.binlog
+
+# Entity Framework
+Migrations/
+
+# Application specific
+test-data.json
